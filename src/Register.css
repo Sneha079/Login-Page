@@ -1,0 +1,71 @@
+.name{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+     gap: 10px; 
+    padding-left: 20px;
+    padding-right: 40px;
+
+}
+
+.form1{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.emailfild{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 40px;
+    gap: 10px;
+
+
+}
+.passwordfild{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    gap: 10px;
+    padding-right: 40px;
+}
+.button{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+
+
+}
+.input{
+   border: 2px solid blueviolet; 
+   border-radius: 20px;
+   font-weight: 600px;
+   height: 3.5vh;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* .but{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800px;
+    height: 4vh;
+    width: 40vw;
+    background-color: aqua;
+    gap: 10px;
+} */
+
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: aqua;
+    color: black;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover{
+    /* color: green; */
+    background-color: green;
+}
